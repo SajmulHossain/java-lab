@@ -32,5 +32,8 @@ public class car {
     public static void main(String[] args) {
         Car car1 = new Car("Toyota", 100, 20, "Allion");
         System.out.println("Brand name is: " + car1.getBrand());
+        System.out.println("Model name is: " + car1.getModel());
+        System.out.println("Milage name is: " + car1.getMilage());
+        System.out.println("Car Top Speed: " + car1.getTop_speed());
     }
 }
